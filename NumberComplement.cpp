@@ -10,7 +10,7 @@ public:
                 res = res | 1<<i;
             i++;
             num /= 2;
-        }
+        } 
         return res;
     }
 };
